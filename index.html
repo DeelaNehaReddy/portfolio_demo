@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Neha | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <!-- Hero Section -->
+    <header class="hero">
         <h1>Deela Neha Reddy Thummuru</h1>
-        <p>Passionate Full Stack Developer</p>
+        <p class="subtitle">Passionate Full Stack Developer</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
     </header>
 
-    <nav>
+    <!-- Navigation -->
+    <nav class="navbar">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 
-
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
             I am a passionate Full Stack Developer currently pursuing B.Tech at 
             Vishnu Institute of Technology.  
             I enjoy building projects, solving problems, and exploring new technologies.
         </p>
     </section>
 
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Spring Boot</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React</li>
-            <li>SQL</li>
-        </ul>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-container">
+            <span class="skill">Java</span>
+            <span class="skill">Spring Boot</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">SQL</span>
+        </div>
     </section>
 
-
-    <section id="projects" class="container">
-        <h2>Projects</h2>
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
 
         <div class="project-card">
             <h3>Diet Plan Generator</h3>
@@ -62,14 +68,19 @@
         </div>
     </section>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email: neha@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/your-profile</p>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-box">
+            <p>Email: <strong>neha@gmail.com</strong></p>
+            <p>LinkedIn: <strong>linkedin.com/in/your-profile</strong></p>
+        </div>
     </section>
 
-    <footer>
-        <p>© 2025 Neha • All Rights Reserved</p>
+    <!-- Footer -->
+    <footer class="footer">
+        © 2025 Neha • All Rights Reserved
     </footer>
 
 </body>
